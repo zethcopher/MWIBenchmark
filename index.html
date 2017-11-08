@@ -1,0 +1,73 @@
+<!-- <h1>Code Test</h1> -->
+<!DOCTYPE html>
+<html>
+	<head> 
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	   <meta name="viewport" content="width=device-width, initial-scale=1">
+	   <meta charset ="UTF-8">
+	<title>Midwestern Interactive</title>
+					
+	</head>
+		<body>
+			<header>
+				<a href="http://midwesterninteractive.com/" target="_blank"><img src="./img/mwi-logo-horizontal.png"/></a>
+			</header>
+			<div class="row">
+				<div class="column">
+				 	<h1>HEADING ONE</h1>
+				</div>
+			</div>
+			<div class ="topSection">
+			<section class="row1">
+				<div class="column1">
+				  <div class="greyArea"></div>
+				  <h2>Heading 2</h2>
+				  <p>This is a paragraph text that is meant to flex and wrap to a new line based on the number of characters in this container. Please make sure this is looking pretty good based on the amount of characters this is taking up.</p>
+				  <div class="readMore"><a target="_blank" href="https://www.lipsum.com/">Read More</a></div>
+				</div>
+				<div class="column1">
+				  <div class="greyArea"></div>
+				  <h2>Heading 2</h2>
+				  <p>This is a paragraph text that is meant to flex and wrap to a new line based on the number of characters in this container. Please make sure this is looking pretty good based on the amount of characters this is taking up.</p>
+				  <div class="readMore"><a target="_blank" href="https://www.lipsum.com/">Read More</a></div>
+				</div>
+				<div class="column1">
+				<div class="greyArea"></div>
+				  <h2>Heading 2</h2>
+				  <p>This is a paragraph text that is meant to flex and wrap to a new line based on the number of characters in this container. Please make sure this is looking pretty good based on the amount of characters this is taking up.</p>
+				  <div class="readMore"><a target="_blank" href="https://www.lipsum.com/">Read More</a></div>
+			</section>	
+			</div>
+			<div class="formSection">
+				<h3>CONTACT</h3>
+				<div>
+					<form name = "inputs" method="post" onsubmit="return validate();">
+						<span>Email</span><span class ="error" id = "errorEm" ><i>Must enter a valid email</i></span>
+							<input class="textInput" type="email" id="Email"><br>
+						<span>Subject</span><span class ="error" id="errorSub"><i>Subject is required.</i></span>
+							<input class="textInput" type="text" id="Subject"><br>
+						<span>Message</span><span class ="error" id="errorMes"><i>Message is required.</i></span>
+							<textarea class ="textMessage" type="text" id="Message"></textarea><br>
+							<input class="submit" type="submit" value="Submit">
+					</form>
+				</div>
+			</div>
+			<div class="topSection">
+			<div class="row">
+				<div class="column">
+				 	<h1>HEADING ONE</h1>
+				</div>
+			</div>
+				<div class="bottomSection" id="bottomSection">
+				<p>Remove the duplicates in 2 Javascript objects and output the list of distinct names in an unordered list when this <a id="listLink" href="javascript:clickOnlyOnce()">link is clicked,</a> if the operation has been completed already notify the user that this has already been done.</p>
+					<div id ="listOfNames">
+					</div>
+				</div>
+			<footer>
+				<p><i>Thanks for taking the Midwestern Interactive Benchmark Test</i></p>
+			</footer>
+		</body>
+	
+		<script type="text/javascript" src ="scripts.js">
+		</script>
+</html>
